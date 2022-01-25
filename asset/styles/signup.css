@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F0F2F5;
+}
+
+.main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.signUpForm{
+    font-family: "Heebo", sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px auto;
+    width:470px;
+    background-color: #FFFFFF;
+    color: #1C1E21;
+    box-shadow: 0 0 5px 0;
+}
+.signUpForm hr{
+    text-align: center;
+    width: 100%;
+    border-bottom:1px solid #606770;  
+}
+.heading h4 {
+    color: #606770;
+}
+
+.heading h1,.heading h4{
+
+    margin: 0;
+    font-weight: 500;
+}
+.Name{
+    outline:none ;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0;
+    width: 42%;
+    margin: 0 10px;
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+}
+
+.full-Lenght{
+    box-shadow: 0 0 2px 0;
+    border-radius: 5px;
+    outline:none ;
+    width: 90%;
+    margin: 10px 10px;
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+}   
+form p{
+    margin: 0 0 10px 10px;
+    color:#606770;
+}
+.gender{
+    padding: 5px;
+    box-shadow: 0 0 2px 0;
+    margin: 0 55px;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 3px;
+
+}
+#terms{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.gender input{
+    margin: 0 10px;
+    outline: none;
+    border: none;
+}
+#date{
+    width: 100px;
+}
+form button {
+    height: 40px;
+    width: 40%;
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 20px 0 20px 30px;
+}
+
+#createAccount{
+    background-color: #36a420;
+}
+#loginBack{
+    background-color: #166FE5;
+}
+@media only screen and (max-width:350px){
+    .signUpForm{
+        width: 100%;
+    }    
+}

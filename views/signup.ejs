@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/styles/signup.css">
+<title>fdsafda</title>
+<div class="main">
+    <div class="signUpForm">
+        <div class="heading">
+            <h1>Sign Up </h1>
+            <h4>its quick and easy !</h4>
+        </div>
+        <hr>
+        <form action="/signup/NewUser" method="post" autocomplete="off">
+            <input type="text" placeholder="First Name" class="Name" required autofocus name="FirstName">
+            <input type="text" placeholder="Surname" class="Name" required name="Surname">
+            <input type="text" placeholder="Mobile number or Email" class="full-Lenght" name="userName" required>
+            <input type="password" placeholder="Password" class="full-Lenght" name="password" required>
+            <p>Date of Birth</p>
+            <input type="date" id="date" name="date">
+            <!-- to be done later add 18+ functionality! -->
+            <p>Gender</p>
+            <div class="gender"> <input type="radio" value="Male"  id="male" name="gender"><label for="male">Male</label></div>
+            <div class="gender"><input type="radio" value="Male" id="Female"  name="gender"><label for="Female">Female</label></div>
+            <p id="terms">By clicking Sign Up, you agree to our <a href="">Terms , Data Policy</a>  and <a href=""> Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+            <button id="createAccount">Sign Up</button><a href="/"><button type="button" id="loginBack">Log In</button></a>
+        </form>
+        <a href="/signup/delete"><button type="button">delete</button></a>
+    </div>
+</div>
+<script src="/js/signup.js"></script>
